@@ -47,7 +47,7 @@ First, create a new folder inside the `src` folder named `components`. Then, cre
 
 Create a function `Clock` Component.
 
-Export this component by typing` export default Clock` below the function.
+Export this component by typing `export default Clock` below the function.
 
 ```js
 function Clock() {}
@@ -172,7 +172,7 @@ So, what we can do is, we need to import a State.
 
 What to do is in the `Clock.js` Component. Let's have an `import React from 'react';` at the top of the `Clock()` function.
 
-And in order to use a State, there is a hook called `useState`. To use the `useState` hook, you need to import the state variable from  'react'. Like below:
+And in order to use a State, there is a hook called `useState`. To use the `useState` hook, you need to import the state variable from 'react'. Like below:
 
 ```js
 import React, { useState } from "react";
@@ -184,7 +184,7 @@ Alright, now let's create a `constant`. To use a State in a function component, 
 const [] = useState();
 ```
 
-And here you need to give the initial value of your state => `useState(initial value)`. So, my initial value will be the same which is the `Date()` function.
+And here you need to give the initial value of your state =&gt; `useState(initial value)`. So, my initial value will be the same which is the `Date()` function.
 
 ```js
 const [] = useState(new Date().toString())
@@ -379,10 +379,9 @@ So, if the flag is changing from `true` to `false`, then you will see that the `
 
 So this way this is a lifecycle of a component, whenever a component is mounted or whenever a component is updated. you want to run some side effects.
 
-
 Now, there is a scenario that whenever a component is destroyed you want to run effect of unmounting that whenever the component is unmounted you want to do something.
 
-So, in that case, what we can do is that let's have a constant and gonna have an interval and  I will remove/cut the `setInterval()`
+So, in that case, what we can do is that let's have a constant and gonna have an interval and I will remove/cut the `setInterval()`
 
 So now I have the interval here and this interval depends on the time.
 
@@ -426,22 +425,19 @@ useEffect(() => {
 
 # Dependency Array
 
-If we remove the dependency, which is [time], in the console will look like this, not update the interval.
+If we remove the dependency, which is \[time\], in the console will look like this, not update the interval.
 
-```cmd
+```markdown
 component keep mounted or updated
 cleanup of Interval
 component keep mounted or updated
-
-
-
 ```
 
 It is not running because the `useEffect()` is now dependent on another state variable which is a `time`.
 
-But if we put dependency array [time], then the console will look like this:
+But if we put dependency array \[time\], then the console will look like this:
 
-```cmd
+```markdown
 cleanup of Interval
 component keep mounted or updated
 cleanup of Interval
@@ -453,22 +449,20 @@ component keep mounted or updated
 cleanup of Interval
 ```
 
-Then, in that case, the `useEffect()` will run only if the state variable changes.
-The second argument is will be the dependency array. So, this dependency array will depend on these State variables.
+Then, in that case, the `useEffect()` will run only if the state variable changes. The second argument is will be the dependency array. So, this dependency array will depend on these State variables.
 
 So, this is how you will do the State and the lifecycle in the React components.
 
 # CodeSandbox
 
-<iframe src="https://codesandbox.io/embed/state-and-lifecycle-ticking-clock-57yhrb?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="state-and-lifecycle-ticking-clock"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+<iframe src="https://codesandbox.io/embed/state-and-lifecycle-ticking-clock-57yhrb?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
-[![Edit state-and-lifecycle-ticking-clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/state-and-lifecycle-ticking-clock-57yhrb?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+![Edit state-and-lifecycle-ticking-clock](https://codesandbox.io/static/img/play-codesandbox.svg align="left")
 
----
+* * *
 
-Do share it with the community at [daily.dev](https://app.daily.dev/) by entering the article's URL / link to add it to the feed.
+# Share This Tutorial
+
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+
+`Cheers✨`
