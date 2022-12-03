@@ -24,8 +24,7 @@ example
 
 The below sample code shows how we can create a stateful component using ES6 syntax.
 
-
-```
+```markdown
 import React, { Component } from "react";
 class App extends React.Component {
     constructor() {
@@ -55,28 +54,23 @@ class App extends React.Component {
     }
 }
 export default App;
-
-``` 
-
+```
 
 To set the state, it is required to call the `super()` method in the constructor. It is because `this.state` is uninitialized before the `super()` method has been called.
 
 Output
 
- 
-
 ## Changing the State
 
-We can change the component state by using the `setState()` method and passing a new state object as the argument. Now, create a new method `toggleDisplayBio()` in the above example and bind this keyword to the` toggleDisplayBio()` method otherwise we can't access this inside `toggleDisplayBio()` method.
+We can change the component state by using the `setState()` method and passing a new state object as the argument. Now, create a new method `toggleDisplayBio()` in the above example and bind this keyword to the `toggleDisplayBio()` method otherwise we can't access this inside `toggleDisplayBio()` method.
 
-`this.toggleDisplayBio = this.toggleDisplayBio.bind(this); `
+`this.toggleDisplayBio = this.toggleDisplayBio.bind(this);`
 
 Example
 
 In this example, we are going to add a button to the render() method. Clicking on this button triggers the toggleDisplayBio() method which displays the desired output.
 
-
-```
+```markdown
 import React, { Component } from "react";
 
 class App extends React.Component {
@@ -127,16 +121,11 @@ class App extends React.Component {
 }
 
 export default App;
-``` 
-
+```
 
 Output:
 
- 
-
 When you click the Read More button, you will get the below output, and when you click the Show Less button, you will get the output as shown in the above image.
-
-
 
 # Combination of State and Props
 
@@ -146,7 +135,7 @@ Example
 
 App.js
 
-```
+```markdown
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -177,26 +166,32 @@ class JTP extends React.Component {
     }
 }
 export default App;
-
 ```
 
 Main.js
 
-```
+```markdown
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App.js";
 
 ReactDOM.render(<App />, document.getElementById("app"));
-
 ```
 
 # Differences between State vs. Props
 
-State
+<mark>State</mark>
 
-The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.
+The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behaviour of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.
 
-Props
+<mark>Props</mark>
 
-Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
+Props are read-only components. It is an object which stores the value of attributes of a tag and works similarly to the HTML attributes. It allows passing data from one component to another components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
+
+* * *
+
+# Share This Tutorial
+
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+
+`Cheers✨`
