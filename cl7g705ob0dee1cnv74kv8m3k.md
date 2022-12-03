@@ -4,7 +4,7 @@ Beginners may be concerned about having `useEffect` in the code in my previous t
 
 # Memory Leakage in React Applications
 
-Create a `useEffect` hook to _Clock.js_ that clears the `setInterval` every time the Clock component is updated. Other than that, you'd have a lot of "intervals" that may result in memory leaks.
+Create a `useEffect` hook to *Clock.js* that clears the `setInterval` every time the Clock component is updated. Other than that, you'd have a lot of "intervals" that may result in memory leaks.
 
 > If you're not sure what memory leaking is, do a Google search for “memory leakage”.
 
@@ -35,7 +35,7 @@ In this example below, you can see that we have added `[time]` as the second par
 
 # Cleaning Up
 
-Sometimes the action you perform in the `useEffect` hook will run for a long time or even forever (e.g., refreshing the clock every second with `setInterval`). In this situation,  make sure that when React refreshes the component, it cleans up the “long-running tasks”. Otherwise, you'd be running a slew of "long-running tasks" in the background, using up your whole computer's RAM.
+Sometimes the action you perform in the `useEffect` hook will run for a long time or even forever (e.g., refreshing the clock every second with `setInterval`). In this situation, make sure that when React refreshes the component, it cleans up the “long-running tasks”. Otherwise, you'd be running a slew of "long-running tasks" in the background, using up your whole computer's RAM.
 
 To do this, you must return a "clean up function" from the `useEffect` hook. React will use that function to clean up the long-running task when the component is refreshed. If you put a long-running task in the `useEffect` hook, you should **always** include a clean up function.
 
@@ -53,6 +53,10 @@ In the above example, you can see that we returned an arrow function called `cle
 
 Don't be too worried about this if you're not quite sure. It is rarely used in actual code.
 
----
+* * *
 
-Please share it with the community at [daily.dev](https://app.daily.dev/) by adding the article's URL / link to the feed.
+# Share This Tutorial
+
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+
+`Cheers✨`
