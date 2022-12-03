@@ -1,6 +1,6 @@
 # About Me
 
-🙌 hey, my name is [@amirahnasihah](https://hashnode.com/@amirahnasihah) - from Malaysia
+🙌 my name is [@amirahnasihah](https://hashnode.com/@amirahnasihah) - from Malaysia
 
 🤔 a taciturn tech enthusiast with an accounting background
 
