@@ -18,25 +18,19 @@ To have a better understanding of how components and properties are used in Reac
 
 This is the result that you will achieve once you have finished the tutorial. My suggestion is to read this guide closely, then go through it again one step at a time using code editor and repeat the process until you can do it by yourself.
 
-<iframe src="https://codesandbox.io/embed/components-and-props-hello-diff-users-cctbhl?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="components-and-props-hello-diff-users"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+<iframe src="https://codesandbox.io/embed/components-and-props-hello-diff-users-cctbhl?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
-[![Edit components-and-props-hello-diff-users](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/components-and-props-hello-diff-users-cctbhl?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+![Edit components-and-props-hello-diff-users](https://codesandbox.io/static/img/play-codesandbox.svg align="left")
 
 # A Simple JavaScript Function
 
-So, let's do this with an example.
-So, what I'm going to do here in `App.js` file is that I'm just simply roll back everything. We don't want anything on our screen.
+So, let's do this with an example. So, what I'm going to do here in `App.js` file is that I'm just simply roll back everything. We don't want anything on our screen.
 
 Now, if we go to `App.js` file and in this App component, you will see that this `App.js` is a simple function of JavaScript.
 
 So, what I will do is I will have this constant `userInfo` and let's also have a string here inside the `<div>` tag. Let's have a string of `Hello World`. Let's do it like this:
 
-_**App.js**_
+***App.js***
 
 ```JSX
 function App() {
@@ -59,7 +53,7 @@ So, this `App` is called an `App component` and in React, each of the component 
 
 And each of the component will have it's data in the form of a `prop`.
 
-Let's take an example. So, what  I'm going to do is I'm going to go here in `src folder`.
+Let's take an example. So, what I'm going to do is I'm going to go here in `src folder`.
 
 And then, I will create a folder named `components` inside the `src folder` where in here I can create my own components.
 
@@ -67,7 +61,7 @@ Then, inside the `components folder` I will have a component called `Welcome.js`
 
 Alright, and you should make sure that whenever you create a component, you should always start a component with a capital letter.
 
-_**Welcome.js**_
+***Welcome.js***
 
 Here in the `Welcome.js` file, I want to create a component.
 
@@ -85,8 +79,7 @@ So, I will have a:
 export default Welcome;
 ```
 
-Then, this Welcome component should return some kind of a `JSX`.
-Let's return a JSX where I'm going to return `<h1>` tag and I will have a `Hello from Welcome Component`. Like this:
+Then, this Welcome component should return some kind of a `JSX`. Let's return a JSX where I'm going to return `<h1>` tag and I will have a `Hello from Welcome Component`. Like this:
 
 ```JSX
 function Welcome() {
@@ -108,7 +101,7 @@ So, let's go to the `App.js` file and at the top of the code, I will import the 
 
 Let's import the Welcome component like so:
 
-_**App.js**_
+***App.js***
 
 ```JSX
 import Welcome from "./components/Welcome";
@@ -140,12 +133,11 @@ So, in this way, you can use the component and let's save it.
 
 Now, you will see that as soon as we save it, you will see on the screen that `Hello from Welcome Component`.
 
-Now, what I want is I want to pass the props to this component which is the App component.
-I want to pass some information. So, I will go here in App component on return `<Welcome />` and I'm going to pass the `user`.
+Now, what I want is I want to pass the props to this component which is the App component. I want to pass some information. So, I will go here in App component on return `<Welcome />` and I'm going to pass the `user`.
 
 The prop name is `user` and I'm going to have the `userInfo`. It will be like this:
 
-_**App.js**_
+***App.js***
 
 ```JSX
 function App() {
@@ -176,7 +168,7 @@ To use the props, you will need to go here in Welcome component, and whenever yo
 
 Like this:
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 function Welcome(props) {}
@@ -200,7 +192,7 @@ If I expand this Object, I will see that I have the information of the `user` an
 
 So, if I want to use it, what I can do is I can simply have here the `props.name`. Like this:
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 function Welcome(props) { 
@@ -217,7 +209,7 @@ As soon as I save it, you will see that I don't see name displayed on the screen
 
 That is because I made a mistake where it supposed to be `props.user.firstName`. Let's have it like this:
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 function Welcome(props) { 
@@ -238,7 +230,7 @@ Now, I want to show you that how you can make this on it as a reusable component
 
 So, let's remove this here inside the `<h1>` tag and I'm going to simply have the `name` here again. Like this:
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 function Welcome(props) { 
@@ -251,7 +243,7 @@ export default Welcome;
 
 Alright, and what I want is that this Welcome component to be repeated three (3) times with a different name.
 
-_**App.js**_
+***App.js***
 
 I will go to the `App.js` file and I'm going to repeat this three times because I want to use this three times. Like this:
 
@@ -277,7 +269,7 @@ You will see that we have three different users but, you will see that we don't 
 
 So, that means we made a mistake and the mistake is we are using `props.name` in Welcome component.
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 return <h1>Hello {props.name} from Welcome Component</h1>;
@@ -285,7 +277,7 @@ return <h1>Hello {props.name} from Welcome Component</h1>;
 
 The problem of our prop is the `name`. I'm going to go and I will simply going to change this as `user` and I will save it and you will see that we have that `Hello Ludwig from Welcome Component` along with all of the other users been displayed on the screen.
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 function Welcome(props) {
@@ -310,7 +302,7 @@ So, you can relate this article of components and props with my another [article
 
 # Full Code
 
-_**App.js**_
+***App.js***
 
 ```JSX
 import Welcome from "./components/Welcome";
@@ -333,7 +325,7 @@ function App() {
 export default App;
 ```
 
-_**Welcome.js**_
+***Welcome.js***
 
 ```JSX
 function Welcome(props) {
@@ -346,4 +338,6 @@ export default Welcome;
 
 # Share This Tutorial
 
-Do share it with the community at [daily.dev](https://app.daily.dev/) or at anyplace by entering the article's URL / link to add it to the feed.
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+
+`Cheers✨`
