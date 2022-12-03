@@ -6,7 +6,7 @@
 
 💞 enjoy building, designing, documenting, and sharing
 
-Apa Khabar?👀
+### Apa Khabar?👀
 
 I grew up in Malaysia, surrounded by the vibrant culture and bustling cities of Southeast Asia. From a young age, I was always fascinated by technology and the incredible things it could do.
 
