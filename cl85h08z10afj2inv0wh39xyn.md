@@ -6,8 +6,10 @@ This tutorial is going to give you a step-by-step guide on understanding one of 
 
 Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:
 
-- React events are named using camelCase, rather than lowercase.
-- With JSX you pass a function as the event handler, rather than a string.
+*   React events are named using camelCase, rather than lowercase.
+    
+*   With JSX you pass a function as the event handler, rather than a string.
+    
 
 What I want is when we click the button toggle, it will update or change it to the `Clock` component. That's why we need the `useState` hook to make that changes. And to change the button, we use the initial value of the boolean value of `true`.
 
@@ -23,14 +25,9 @@ The best practice is to read through this tutorial and follow along several time
 
 This is the result that you will achieve once you have finished the tutorial. My suggestion is to read it through, then go through it again one step at a time using code editor and repeat until you can do it by yourself.
 
-<iframe src="https://codesandbox.io/embed/event-handling-toggle-clock-29dh94?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="event-handling-toggle-clock"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+<iframe src="https://codesandbox.io/embed/event-handling-toggle-clock-29dh94?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
-[![Edit event-handling-toggle-clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/event-handling-toggle-clock-29dh94?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
+![Edit event-handling-toggle-clock](https://codesandbox.io/static/img/play-codesandbox.svg align="left")
 
 # Create a Button
 
@@ -80,7 +77,7 @@ Now, what I am going to do in `App.js` file is whenever I clicked the `toggle` f
 
 If I want to set the state of the `flag`, we will have a `setFlag` and with this `setFlag`, we will have to just have to toggle the flag value `setFlag(!flag)`. Like this:
 
-**_App.js_**
+***App.js***
 
 ```JSX
 function toggle() {
@@ -97,9 +94,10 @@ Now, let's have here in the App component where inside the return of the `<Clock
 
 In the `Clock` component, let's write a condition and it would be that:
 
-- If I have a `flag` as `true`, then in that case I want to show the component which is the `Clock` component.
-
-- But if it is `false`, then in that case I don't want to show anything. Instead, I want to show the `"No Clock component"`.
+*   If I have a `flag` as `true`, then in that case I want to show the component which is the `Clock` component.
+    
+*   But if it is `false`, then in that case I don't want to show anything. Instead, I want to show the `"No Clock component"`.
+    
 
 Like this:
 
@@ -109,7 +107,7 @@ Like this:
 
 Then, I will save as it is like this:
 
-**_App.js_**
+***App.js***
 
 ```JSX
 const toggle = () => {
@@ -143,7 +141,7 @@ And as soon as I click on it again, you will see the component is rendered again
 
 So, that is how you will handle the events in your react application.
 
-**_App.js_**
+***App.js***
 
 ```js
 import "./styles.css";
@@ -193,7 +191,7 @@ So, in this way, you can handle the events in React application.
 
 ## First Method
 
-**_App.js_**
+***App.js***
 
 ```javascript
 export default function App() {
@@ -216,7 +214,7 @@ Look the differences on the `onClick` in first method and second method. On the 
 
 ## Second Method (Anonymous Arrow Function)
 
-**_App.js_**
+***App.js***
 
 ```JSX
 export default function App() {
@@ -233,7 +231,7 @@ export default function App() {
 
 # Full Code
 
-**_App.js_**
+***App.js***
 
 ```JSX
 import "./styles.css";
@@ -259,7 +257,7 @@ export default function App() {
 }
 ```
 
-**_Clock.js_**
+***Clock.js***
 
 ```JSX
 import React, { useState, useEffect } from "react";
@@ -286,4 +284,6 @@ export default function Clock() {
 
 # Share This Tutorial
 
-Cares to share it with the community at [daily.dev](https://app.daily.dev/) or at anyplace by entering the article's URL / link to add it to the feed.
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+
+`Cheers✨`
