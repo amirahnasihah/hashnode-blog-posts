@@ -18,7 +18,7 @@
 
 #### 👉 Please share it with the community at daily.dev / social media by adding the article's URL to the feed
 
-Let's connect via social media! I'm on [GitHub](https://github.com/amirahnasihah), [LinkedIn](https://www.linkedin.com/in/amirahnasihah), [Twitter](https://twitter.com/amrhnshh), and [Hashnnode](https://hashnode.com/@amirahnasihah). What about you? 
+Let's connect via social media! I'm on [GitHub](https://github.com/amirahnasihah), [LinkedIn](https://www.linkedin.com/in/amirahnasihah), [Twitter](https://twitter.com/amrhnshh), and [Mastodon](https://techhub.social/@amirahnasihah). What about you? 
 
 Cheers,
 
