@@ -49,17 +49,24 @@ Installing and running Stable Diffusion on your own machine provides you with th
 # 🔥 AI generated Images
 
 ![amrhnshh_illustration_of_study_room_of_computer_desktop_heading_107c3646-5dbb-48cd-94c7-0faa96919cda.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669650820156/WxjYRrk52.png align="left")
+
 ![amrhnshh_a_zombie_robot_eating_spagetti_8051e19c-e54a-4589-ad00-e873a8b4d47a (1).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669650816088/yHZ8dHKQo.png align="left")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080089031/eOy0P1Gi5.png align="left")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080126073/9-7EIh2PT.png align="left")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080129566/PAH2qDa6Q.png align="left")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670239413539/hBdIkbMPk.png align="left")
+
+> **👀 Show me what you got!**
+> 
+> [You've got something cool, let's see it! Click here to show the world and I'd love to check it out.](https://twitter.com/intent/tweet?text=Playing%20around%20w%2F%20ML%20%2B%20Stable%20Diffusion%21%20%E2%9C%A8%0A%0AHere%20are%20a%20few%20images%20I%20generated%20today%20via%20prompts%20I%20created.%0A%0AKudos%20to%20%40amrhnshh%20for%20the%20post!%21%0A%0A%3Ccopy%20paste%20your%204%20fav%20generated%20images%20here%3E%0A%0A%3Cif%20you%20feel%20like%20it%2C%20add%20another%20tweet%20with%20a%20link%20to%20the%20guide%21%3E)
 
 * * *
 
 P.S.: I'll write another post regarding Prompt101. Let's connect and follow up with me!
-
-P.S.S: yes, the image cover was AI generated -- hehe ✨
 
 👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed.
 
