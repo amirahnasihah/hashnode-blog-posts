@@ -49,14 +49,11 @@ Installing and running Stable Diffusion on your own machine provides you with th
 # 🔥 AI generated Images
 
 ![amrhnshh_illustration_of_study_room_of_computer_desktop_heading_107c3646-5dbb-48cd-94c7-0faa96919cda.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669650820156/WxjYRrk52.png align="left")
-
 ![amrhnshh_a_zombie_robot_eating_spagetti_8051e19c-e54a-4589-ad00-e873a8b4d47a (1).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669650816088/yHZ8dHKQo.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080089031/eOy0P1Gi5.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080126073/9-7EIh2PT.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080129566/PAH2qDa6Q.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670239413539/hBdIkbMPk.png align="left")
 
 * * *
 
@@ -64,6 +61,8 @@ P.S.: I'll write another post regarding Prompt101. Let's connect and follow up w
 
 P.S.S: yes, the image cover was AI generated -- hehe ✨
 
-👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed.
+
+By adding my article, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
 
 `Cheers✨`
