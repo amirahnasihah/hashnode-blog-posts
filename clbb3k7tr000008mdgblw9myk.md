@@ -63,7 +63,7 @@ Great, now you have everything you need to create some amazing images!
 
 # TL;DR: Prompt Formula
 
-```yaml
+```markdown
 TL;DR: Prompt Formula
 
 Art Medium + The actual things you want in the image + Art Styles (could be an artist or an actual style like Anime, ) + Modifications (extra details on how the image should look) ⇒ Good Image.
