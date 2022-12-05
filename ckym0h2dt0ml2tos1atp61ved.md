@@ -18,7 +18,9 @@ In my early year as a tech enthusiast, I explored the various tools and technolo
 
 Also - let's connect via social media! I'm on [GitHub](https://github.com/amirahnasihah), [LinkedIn](https://www.linkedin.com/in/amirahnasihah), [Twitter](https://twitter.com/amrhnshh), and [Mastodon](https://techhub.social/@amirahnasihah). What about you?
 
-👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed. By adding my article's URL to the feed, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
+👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed.
+
+By adding my articles, I can share my insights and knowledge with other tech enthusiasts and contribute to the passionate community.
 
 `Cheers✨`
 
