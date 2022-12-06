@@ -26,7 +26,7 @@ To create a super duper image using [Lexica.art](http://Lexica.art), just follow
     
 3.  You will be presented with a blank canvas where you can input your prompt.
     
-4.  To create your prompt, you can either type in natural language (e.g. "a red apple on a white table, an astronaut riding a horse").
+4.  To create your prompt, you can type in natural language (e.g. "a red apple on a white table, an astronaut riding a horse").
     
 5.  In the 'Generate' page, click on the icon next to the prompter and set the guidance scale to 10 and the image size to 864x512.
     
