@@ -77,6 +77,8 @@ Generate multiple images using the same prompt to see how the results vary. You 
 
 > Ready to take your image-making skills to the next level? Try experimenting with [different prompts and AI tools, like Midjourney](https://amirahnasihah.hashnode.dev/how-to-start-generate-ai-art-for-noob), to create some truly stunning images. The possibilities are endless, so get creative and have fun! 🎉
 
+P.S.: I'm using a Hashnode **WYSIWYG** editor -- called [**Neptune**](https://hashnode.com/neptune)**.**
+
 * * *
 
 # **Share This Tutorial**
