@@ -1,6 +1,6 @@
 # Prompt 101: Generate Cool Stable Diffusion Images with this Guide
 
-Hey there, if you have tried using Stable Diffusion and are unsure of how others are able to generate such impressive images, then this is the perfect place for you to learn the secret behind creating impressive images using AI.
+If you have tried using Stable Diffusion and are unsure of how others are able to generate such impressive images, then this is the perfect place for you to learn the secret behind creating impressive images using AI.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670084920733/thhghhxrB.gif align="center")
 
