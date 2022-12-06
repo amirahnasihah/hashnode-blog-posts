@@ -32,7 +32,7 @@ DALL-E is an artificial intelligence program that dazzles with its capacity to t
 
 [https://midjourney.com/](https://midjourney.com/)
 
-They use the Discord server to generate an image using AI. Midjourney allows you to create your first 25 photos for free. But you won't be able to stop at 25! offering a basic membership with a monthly subscription and a higher-level standard membership that allows you to generate unlimited images.
+They use the Discord server to generate an image using AI. Midjourney allows you to create your first 25 photos for free. But you won't be able to stop at 25! Offering a basic membership with a monthly subscription and a higher-level standard membership that allows you to generate unlimited images.
 
 ### 6️⃣ Stable Diffusion web demo
 
@@ -49,15 +49,10 @@ Installing and running Stable Diffusion on your own machine provides you with th
 # 🔥 AI generated Images
 
 ![amrhnshh_illustration_of_study_room_of_computer_desktop_heading_107c3646-5dbb-48cd-94c7-0faa96919cda.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669650820156/WxjYRrk52.png align="left")
-
 ![amrhnshh_a_zombie_robot_eating_spagetti_8051e19c-e54a-4589-ad00-e873a8b4d47a (1).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669650816088/yHZ8dHKQo.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080089031/eOy0P1Gi5.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080126073/9-7EIh2PT.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670080129566/PAH2qDa6Q.png align="left")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1670239413539/hBdIkbMPk.png align="left")
 
 > **👀 Show me what you got!**
@@ -66,7 +61,7 @@ Installing and running Stable Diffusion on your own machine provides you with th
 
 * * *
 
-P.S.: I'll write another post regarding Prompt101. Let's connect and follow up with me!
+P.S.: I'll write another post regarding [how to Master Diffusion Image Generation with this Comprehensive Guide](https://amirahnasihah.hashnode.dev/prompt-101-generate-cool-stable-diffusion-images-with-this-guide). Let's connect and follow up with me!
 
 👉 Please share my posts with the community at [**daily.dev**](http://daily.dev) / social media by adding the article's URL to the feed.
 
