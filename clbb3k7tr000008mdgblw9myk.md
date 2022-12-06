@@ -8,7 +8,7 @@ You may have generated amazing images using AI and you felt like it was a result
 
 # What is Prompt
 
-Prompt engineering is a technique used to guide the AI to generate high-quality and relevant text, and by experimenting with different prompt structures and formats, you can improve the output of your own prompts.
+Prompt engineering is a technique used to guide AI to generate high-quality and relevant text, and by experimenting with different prompt structures and formats, you can improve the output of your own prompts.
 
 Sure, creating effective prompts for AI may be a challenge, especially for those new to prompt engineering. They may struggle to get the desired results from their AI, causing frustration and disappointment. But the good news is that anyone can learn how to talk to AI and generate impressive images.
 
@@ -47,7 +47,7 @@ Here's the <mark>prompt</mark> for the above image:
 
 *illustration of an astronaut lounging in a tropical resort in space by dan seagrave, spiral clouds falling, highly detailed, surrealism, triadic color scheme, smooth, sharp focus, matte, elegant, dark, gloomy, octane render, 8k, 4k, washed colors, sharp, dramatic lighting, beautiful, post processing, ambient lighting, epic composition*
 
-**Let’s look from the POV of the prompt formula.**
+**Let’s look at the POV of the prompt formula.**
 
 ```yaml
 illustration (this is my style choice) of
@@ -71,7 +71,7 @@ Art Medium + The actual things you want in the image + Art Styles (could be an a
 
 To generate images that match your imagination, it may take several attempts to get a result you like. Repeat the process a few times using the same prompt before tweaking the prompt or adjusting the settings to make it more specific or detailed.
 
-After trying a few times, you can start to adjust the prompt to create the exact image you want. Practice is key to developing a strong understanding of how the AI works and how to use it as an artistic tool.
+After trying a few times, you can start to adjust the prompt to create the exact image you want. Practice is key to developing a strong understanding of how AI works and how to use it as an artistic tool.
 
 Generate multiple images using the same prompt to see how the results vary. You may find that the same prompt produces different results each time, so it's worth trying several times to see which image you like best.
 
