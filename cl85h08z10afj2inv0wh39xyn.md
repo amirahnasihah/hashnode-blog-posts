@@ -11,19 +11,19 @@ Handling events with React elements is very similar to handling events on DOM el
 *   With JSX you pass a function as the event handler, rather than a string.
     
 
-What I want is when we click the button toggle, it will update or change it to the `Clock` component. That's why we need the `useState` hook to make that changes. And to change the button, we use the initial value of the boolean value of `true`.
+What I want is for when we click the button toggle, it will update or change it to the `Clock` component. That's why we need the `useState` hook to make that changes. And to change the button, we use the initial value of the boolean value of `true`.
 
 # First Step
 
 Here's a heads-up, this is the continuous tutorial of the state and lifecycle method where what I want to do is to manipulate the button from showing the Clock component that is updated every second to the No Clock component that is shown on the screen.
 
-To begin, you can create a react app using the command line or any code editor (e.g., VSCode). You can also try using [CodeSandbox](https://codesandbox.io/) for an online code editor that is simple to use and allows you to deploy your code.
+To begin, you can create a react app using the command line or any code editor (e.g., VSCode). You can also try using [CodeSandbox](https://codesandbox.io/) as an online code editor that is simple to use and allows you to deploy your code.
 
 The best practice is to read through this tutorial and follow along several times to have a better understanding of handling events in React.
 
 # Code Output
 
-This is the result that you will achieve once you have finished the tutorial. My suggestion is to read it through, then go through it again one step at a time using code editor and repeat until you can do it by yourself.
+This is the result that you will achieve once you have finished the tutorial. My suggestion is to read it through, then go through it again one step at a time using the code editor and repeat until you can do it by yourself.
 
 <iframe src="https://codesandbox.io/embed/event-handling-toggle-clock-29dh94?autoresize=1&fontsize=14&hidenavigation=1&theme=dark" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
@@ -31,13 +31,13 @@ This is the result that you will achieve once you have finished the tutorial. My
 
 # Create a Button
 
-Let's create a `useState` in the `App.js` file. The initial value of state is set to `true`. We will look into it more below.
+Let's create an `useState` in the `App.js` file. The initial value of state is set to `true`. We will look into it more below.
 
-```JSX
+```javascript
 const [flag, setFlag] = useState(true);
 ```
 
-Then, we create a `<button>` tag inside the return fragment. Like this:
+Then, we create a `<button>` tag inside the returned fragment. Like this:
 
 ```JSX
 return (
@@ -69,13 +69,13 @@ Let's have an arrow function for `toggle()`. Like this:
 };
 ```
 
-So, this is the way on how we can handle events in the React.
+So, this is the way how we can handle events in React.
 
 # Change Toggle Explained
 
-Now, what I am going to do in `App.js` file is whenever I clicked the `toggle` function, I want to change the `[flag]`.
+Now, what I am going to do in `App.js` the file is whenever I clicked the `toggle` function, I want to change the `[flag]`.
 
-If I want to set the state of the `flag`, we will have a `setFlag` and with this `setFlag`, we will have to just have to toggle the flag value `setFlag(!flag)`. Like this:
+If I want to set the state of the `flag`, we will have a `setFlag` and with this `setFlag`, we will have just have to toggle the flag value `setFlag(!flag)`. Like this:
 
 ***App.js***
 
@@ -86,11 +86,11 @@ function toggle() {
 }
 ```
 
-So, if the flag value is `true`, we going to set as `false`, and if the flag value is `false`, it is going to set to `true`.
+So, if the flag value is `true`, we going to set it as `false`, and if the flag value is `false`, it is going to be set to `true`.
 
 > !flag === false
 
-Now, let's have here in the App component where inside the return of the `<Clock />` tag, I am going to write a conditional component with it.
+Now, let's have here in the App component were inside the return of the `<Clock />` tag, I am going to write a conditional component with it.
 
 In the `Clock` component, let's write a condition and it would be that:
 
@@ -105,7 +105,7 @@ Like this:
 {flag ? <Clock /> : "No Clock component"}
 ```
 
-Then, I will save as it is like this:
+Then, I will save it is like this:
 
 ***App.js***
 
@@ -125,19 +125,19 @@ const toggle = () => {
 
 # Clean Up of Interval
 
-Now, what you will see if I clicked the `toggle` function then, you will see that we have that `"No Clock component"` on the screen.
+Now, what you will see if I clicked the `toggle` the function then, you will see that we have that `"No Clock component"` on the screen.
 
 Then, if I click the button again, you will see that we have back again a `Clock` component showing the clock ticking on the screen.
 
-But, here what I want to show you are something from my [previous post](https://amirahnasihah.hashnode.dev/react-tutorial-beginner-usestate-and-useeffect-with-example-code) which is the lifecycle method.
+But, here what I want to show you is something from my [previous post](https://amirahnasihah.hashnode.dev/react-tutorial-beginner-usestate-and-useeffect-with-example-code) which is the lifecycle method.
 
 So, what happened is whenever we clicked on the toggle `Clock` component, and whenever this is `false`, we don't see this `Clock` component. In that case, we want to do a cleanup.
 
-And you see that now I am going to click on the toggle to `"No Clock component"` and you will see that we have a cleaned up the interval `cleanup of interval` in the console.
+And you see that now I am going to click on the toggle `"No Clock component"` and you will see that we have cleaned up the interval `cleanup of interval` in the console.
 
 And we have also clicked on the toggle and now you will see that we don't have any `setInterval` running.
 
-And as soon as I click on it again, you will see the component is rendered again and you will see that again we have the component mounted or unmounted and if I click on it, it will get toggle `"No Clock component"` and a cleanup will run.
+And as soon as I click on it again, you will see the component is rendered again and you will see that again we have the component mounted or unmounted if I click on it, it will get a toggle `"No Clock component"` and cleanup will run.
 
 So, that is how you will handle the events in your react application.
 
@@ -181,11 +181,11 @@ We can also return an **Anonymous Arrow Function** in the `onClick`:
 onClick={() => setFlag(!flag)}
 ```
 
-Observe the code below to see the differences about this method code.
+Observe the code below to see the differences in this method code.
 
 And in this function, what I am going to have is a `setClick()` and I am going to toggle the `flag` value and this will work as it is.
 
-So, if you click on the button, it still work as it is.
+So, if you click on the button, it still works as it is.
 
 So, in this way, you can handle the events in React application.
 
@@ -210,7 +210,7 @@ export default function App() {
  );
 ```
 
-Look the differences on the `onClick` in first method and second method. On the second method, we removed the `toggle` function and used an anonymous arrow function.
+Look at the differences between the `onClick` first method and the second method. In the second method, we removed the `toggle` function and used an anonymous arrow function.
 
 ## Second Method (Anonymous Arrow Function)
 
