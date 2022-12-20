@@ -38,7 +38,7 @@ Things I learned -- SEO, plotting my articles, how to make my title and article 
 
 ## 🔸Job At Tech Company
 
-I'm excited that I landed a job offer at a [start-up tech company](https://www.ever-technologies.com/)! The company's focus is on using AI and Blockchain technology to educate non-technical people and help them learn. I'm currently working as a system engineering intern, which I was initially a bit hesitant about since it's different from what I'm studying or interested in.
+I'm excited that I landed a job offer at a [start-up tech company](https://www.ever-technologies.com/)! The company's focus is on [using AI and Blockchain technology](https://www.linkedin.com/company/ever-ai-technologies/mycompany/) to educate non-technical people and help them learn. I'm currently working as a system engineering intern, which I was initially a bit hesitant about since it's different from what I'm studying or interested in.
 
 However, after talking to a mentor and considering the opportunity as a whole, I realized that this job could provide valuable experience and exposure to the tech industry, as well as new skills and knowledge that could help me achieve my long-term career goals. So, I can't wait to see where this opportunity takes me!
 
