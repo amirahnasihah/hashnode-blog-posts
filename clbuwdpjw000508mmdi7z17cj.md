@@ -1,6 +1,6 @@
 # Dev Retro 2022: A Look Back on My Journey as a Beginner Developer
 
-I made the **bold move** to switch career paths from ***accounting to coding*** during the pandemic. Now, a year later, I'm working at a tech company and have made some amazing friends. While I've faced a lot of pressure and seen my friends go on to achieve professional certifications, I've still been struggling with my decision to change careers.
+I made the **bold move** to switch career paths from **accounting to coding** during the pandemic. Now, a year later, I'm working at a tech company and have made some amazing friends. While I've faced a lot of pressure and seen my friends go on to achieve professional certifications, I've still been struggling with my decision to change careers.
 
 As I look back on my journey in the tech world, I can see all the challenges and accomplishments I've experienced. And I want to share those insights and lessons with all of you through this `#DevRetro2022`. Get ready for the long wild ride!
 
@@ -64,7 +64,7 @@ And if you're struggling, remember that you're not alone and that it's okay to a
 > 
 > **Just wanted to drop a quick note to say thank you for all your help, support and trust. I couldn't have done it without each one of you! Thanks to my family, friends, Tech community, TalentLabs, Ever AI, Hashnode and many more!**
 
-* * *
+---
 
 If you enjoyed this, please show some love by liking💖, commenting🤟, and sharing🙌. Your support means a lot and I love reading your thoughts. Thanks for reading!
 
