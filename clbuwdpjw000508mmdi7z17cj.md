@@ -1,4 +1,4 @@
-# Dev Retro 2022: My Story of Switching Career as a Beginner Developer
+# Dev Retro 2022: My Story of Switching Careers as a Beginner Developer
 
 I made the **bold move** to switch career paths from **accounting to coding** during the pandemic. Now, a year later, I'm working at a tech company and have made some amazing friends. While I've faced a lot of pressure and seen my friends go on to achieve professional certifications, I've still been struggling with my decision to change careers.
 
