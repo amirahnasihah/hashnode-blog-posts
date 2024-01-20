@@ -22,7 +22,7 @@ My initial opportunity in the real-world tech industry was as a System Engineeri
 
 # **Continuous Learning**
 
-Post-internship, I focused on completing my front-end development course, building projects like the News Search App. The next phase was job hunting which led me to the build of my portfolio website with ReactJS and Tailwind CSS. This **portfolio aims to show my projects and writings**. So, I studied Tailwind CSS for UI and GraphQL to integrate with the Hashnode API.
+Post-internship, I focused on completing my front-end development course, building projects like the News Search App. The next phase was job hunting which led me to the build of [**my portfolio website**](https://amirahnasihah.vercel.app/) with ReactJS and Tailwind CSS. This **portfolio aims to show my projects and writings**. So, I studied Tailwind CSS for UI and GraphQL to integrate with the Hashnode API.
 
 Then there was one concern — my project database which I had hardcoded in JSON format. This led me to sign up for the TalentLabs Beta Program, Back-End with ExpressJS and MySQL, where I learned how to manage project databases efficiently. This completes my skill set.
 
