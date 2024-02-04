@@ -18,23 +18,27 @@ To give you some background, I completed a degree in accountancy. During my fina
 
 # Diversifying Skills
 
-My initial opportunity in the real-world tech industry was as a System Engineering Intern at an AI startup while enrolled in TalentLabs' intermediate-level Front End Development training program. During the program, **I didn't just stick to the coursework**. I explored AI Midjourney for image creation and even applied for an internship in the tech industry. I learned a lot about software development, artificial intelligence (AI), quality assurance (QA) testing, UI/UX feedback, and even copywriting, all of which became part of my daily tasks. LinkedIn became my platform for copywriting, and my posts received a staggering 476% increase in impressions. Balancing internship responsibilities with front-end development projects was difficult, but the experience proved invaluable.
+My initial opportunity in the real-world tech industry was as a System Engineering Intern at an AI startup while enrolled in TalentLabs' intermediate-level Front End Development training program. During the program, **I didn't just stick to the coursework**.
+
+I explored AI Midjourney for image creation and even applied for an internship in the tech industry. I learned a lot about software development, artificial intelligence (AI), quality assurance (QA) testing, UI/UX feedback, and even copywriting, all of which became part of my daily tasks.
+
+LinkedIn became my platform for copywriting, and my posts received a staggering 476% increase in impressions. Balancing internship responsibilities with front-end development projects was difficult, but the experience proved invaluable as I gained a lot of connections thru networking.
 
 # **Continuous Learning**
 
-Post-internship, I focused on completing my front-end development course, building projects like the News Search App. The next phase was job hunting which led me to the build of [**my portfolio website**](https://amirahnasihah.vercel.app/) with ReactJS and MUI. This **portfolio aims to show my projects and writings** which led me to learn about GraphQL for integration with the Hashnode API.
+Post-internship, I focused on completing my front-end development course, building projects like the News Search App and Food Order App. The next phase was job hunting which led me to the build of [**my portfolio website**](https://amirahnasihah.vercel.app/) using ReactJS and MUI. Libraries that I learned when I was in the program. This **portfolio aims to show my projects and writings** which led me to learn about GraphQL for integration with the Hashnode API.
 
-Then there was one concern — my project database which I had hardcoded in JSON format. This led me to sign up for the TalentLabs Beta Program, Back-End with ExpressJS and MySQL, where I learned how to manage project databases efficiently. This completes my skill set.
+Then there was one concern — to have my own project database. Though, I had hardcoded the data in JSON format which is not good practice. This led me to sign up for the TalentLabs Beta Program, Back-End with ExpressJS and MySQL, where I learned how to setup and manage databases efficiently. This completes my skill set.
 
-# My Portfolio Website
+# Portfolio Power
 
-Surprisingly, my portfolio drew the attention of multiple recruiters. **A year later, I snagged my dream job as a Front End Developer**, proving that the effort put into my portfolio and public contributions paid off.
+Surprisingly, my portfolio drew the attention of multiple recruiters. **A year later, I snagged my dream job as a Front End Developer** after a recruiter notice my works, proving that the effort put into my portfolio and public contributions paid off.
 
 Reflecting on this experience, I've realized the value of showing one's skills and sharing knowledge with the community.
 
 ## Top 10 Malaysian GitHub Users By Public Contributions
 
-One unexpected recognition came my way when friends mentioned I made it to the <mark>Top 10 GitHub Users By Public Contributions in Malaysia</mark>. I made public repositories on GitHub for all of my courses and projects to contribute to the learning experiences of others.
+One unexpected recognition came my way on 2023, when my friends mentioned that I made it to the <mark>Top 10 GitHub Users By Public Contributions in Malaysia</mark>. Just to let you all know, I made public repositories on GitHub for all of my courses and projects to contribute to the learning experiences of others.
 
 This acknowledgement is more than simply a personal accomplishment; it proves the power of sharing and learning in the digital community.
 
@@ -47,9 +51,11 @@ This acknowledgement is more than simply a personal accomplishment; it proves th
 
 ---
 
-So, that's it. Thank you for sticking with me and reading my article. Continue shipping and sharing knowledge! 🚀
+So, that's it. Thank you for sticking with me and reading my article. Continue shipping, don't give up and fly high! 🚀
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text">My Portfolio Website: <a target="_blank" rel="noopener noreferrer nofollow" href="https://amirahnasihah.vercel.app/" style="pointer-events: none">amirahnasihah</a></div>
 </div>
+
+> p/s: still in progress to improve my portfolio
